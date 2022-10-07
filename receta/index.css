@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    background-image: url("https://img.freepik.com/foto-gratis/tablas-madera-restaurante-borroso-fondo_1253-56.jpg?w=2000");
+    height:auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+    .a {
+
+        color: #318aac !important;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0.5em 1.2em;
+        background: rgba(0,0,0,0);
+        border: 2px solid;
+        border-color: #318aac;
+        transition: all 1s ease;
+        position: relative;
+    }
+
+.a:hover {
+        background: #318aac;
+        color: #fff !important;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+    margin: 50px auto;
+    position: relative;
+    top: 100px;
+}
+
+img{
+    display: block;
+    border-radius: 50px;
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    
+}
+
+.body{
+    text-align: center;
+    position: relative;
+    top:85px;
+}
+.footer{
+    padding-top: 10PX;
+    position: absolute;
+    bottom: 0;
+    height: 150PX;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid gray;
+}
+.dato{
+    display: inline-block;
+    padding: 20PX;
+}
+.claro{
+    color: gray;
+    opacity: 0.6;
+}
+.texto{
+    font-size: 35px;
+    text-shadow: 0 5px 5px gray;
+}
+.numero{
+    font-size: 35px;
+    font-weight: bolder;
+    text-shadow: 0 0 5px gray;
+}
+.tipo{
+    font-size: 15px;
+    color: gray;
+}
