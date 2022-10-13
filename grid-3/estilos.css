@@ -1,0 +1,50 @@
+body{
+    background: rgb(198, 155, 218);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 150px 300px 300px 150px 100px 100px;
+
+    gap: 2px;
+    text-align: center;
+    color: white;
+}
+.header{
+    background: rgb(1, 1, 133);
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.nav{
+    background: rgb(117, 8, 241);
+    grid-column: 1;
+    grid-row:3/7 ;
+}
+.main{
+    background: rgb(5, 83, 252);
+    grid-column: 1/5;
+    grid-row: 2;
+}
+.footer{
+    background: rgb(45, 119, 230);
+    grid-column: 2/5;
+    grid-row: 3/4;
+}
+.k{
+    background: rgb(50, 138, 238);
+    grid-column: 2/5;
+    grid-row: 4/4;
+}
+.d{
+    background: rgb(114, 213, 230);
+    grid-column: 4/5;
+    grid-row: 5;
+}
+    .e{
+        background: rgb(127, 198, 221);
+        grid-column: 2/4;
+        grid-row: 5;
+    }
+        .t{
+            background: rgb(115, 170, 233);
+            grid-column: 1/6;
+            grid-row: 6/7;
+    }
