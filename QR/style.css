@@ -1,0 +1,41 @@
+ *{
+background-color: lightblue;
+
+}
+div{
+    display: block;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    background: black;
+    color: rgba(255, 106, 6, 0.959);
+    border-radius: 20px;
+    opacity: 0.7;
+    text-align: center;
+    margin: auto;
+    
+}
+.contenedorQR{
+
+}
+button{
+    display: block;
+    margin: auto;
+padding: 10px;
+font-size: 18px;
+background-color:gray;
+color: aliceblue;
+
+
+    
+}
+
+.p{
+  display: block ;
+  margin:400px ;
+  padding:400px ;
+  width: 500px ;
+  height: auto;
+  top:100px;
+  background: snow;
+}
